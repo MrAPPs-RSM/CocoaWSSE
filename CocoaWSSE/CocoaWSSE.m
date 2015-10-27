@@ -32,7 +32,8 @@
   // https://github.com/kishikawakatsumi/hatena-touch/blob/master/Classes/HatenaAtomPub.m#L37
   NSDate* now = [NSDate date];
   NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
-  [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"US"]];
+  //[dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"US"]];
+  [dateFormatter setTimeZone:[NSTimeZone timeZoneWithName:@"UTC"]];
   [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZ"];
   return [dateFormatter stringFromDate:now];
 }
