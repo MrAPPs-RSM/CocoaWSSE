@@ -35,7 +35,26 @@
   //[dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"US"]];
   [dateFormatter setTimeZone:[NSTimeZone timeZoneWithName:@"UTC"]];
   [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZ"];
-  return [dateFormatter stringFromDate:now];
+  
+  NSString *stringDate = [dateFormatter stringFromDate:now];
+  NSString *lastSecurityDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"lastSecurityDate"];
+  if(!lastSecurityDate){
+      [[NSUserDefaults standardUserDefaults] setObject:stringDate forKey:@"lastSecurityDate"];
+      [[NSUserDefaults standardUserDefaults] synchronize];
+  }
+  else
+  {
+      NSDate *lastDate = [dateFormatter dateFromString:lastSecurityDate];
+      NSDate *currentDate = [dateFormatter dateFromString:stringDate];
+      if([currentDate timeIntervalSinceDate:lastDate] > 250){
+          [[NSUserDefaults standardUserDefaults] setObject:stringDate forKey:@"lastSecurityDate"];
+          [[NSUserDefaults standardUserDefaults] synchronize];
+      }
+      else
+          stringDate = lastSecurityDate;
+  }
+    
+  return stringDate;
 }
 
 @end
