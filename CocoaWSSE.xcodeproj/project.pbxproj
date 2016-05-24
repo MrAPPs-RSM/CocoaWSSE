@@ -11,7 +11,6 @@
 		0727040D17EAFE5900098766 /* CocoaWSSETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727040C17EAFE5900098766 /* CocoaWSSETests.m */; };
 		0727041417EB011900098766 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0727041317EB011900098766 /* Cocoa.framework */; };
 		0727043D17EB014E00098766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727043317EB014E00098766 /* AppDelegate.m */; };
-		0727043E17EB014E00098766 /* CocoaWSSE-Mac-Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0727043417EB014E00098766 /* CocoaWSSE-Mac-Example-Info.plist */; };
 		0727043F17EB014E00098766 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0727043617EB014E00098766 /* Credits.rtf */; };
 		0727044017EB014E00098766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0727043817EB014E00098766 /* InfoPlist.strings */; };
 		0727044117EB014E00098766 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0727043A17EB014E00098766 /* MainMenu.xib */; };
@@ -21,7 +20,6 @@
 		0727044A17EB03E700098766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA417EAFCEB001F2DCA /* Foundation.framework */; };
 		0727044C17EB03E700098766 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0727044B17EB03E700098766 /* CoreGraphics.framework */; };
 		0727046D17EB041200098766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727046417EB041200098766 /* AppDelegate.m */; };
-		0727046E17EB041200098766 /* CocoaWSSE-iOS-Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0727046517EB041200098766 /* CocoaWSSE-iOS-Example-Info.plist */; };
 		0727046F17EB041200098766 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0727046717EB041200098766 /* Default-568h@2x.png */; };
 		0727047017EB041200098766 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0727046817EB041200098766 /* Default.png */; };
 		0727047117EB041200098766 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0727046917EB041200098766 /* Default@2x.png */; };
@@ -34,7 +32,11 @@
 		07A16BB717EAFCEB001F2DCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA417EAFCEB001F2DCA /* Foundation.framework */; };
 		07A16BBA17EAFCEB001F2DCA /* libCocoaWSSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A16BA117EAFCEB001F2DCA /* libCocoaWSSE.a */; };
 		07A16BC017EAFCEB001F2DCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07A16BBE17EAFCEB001F2DCA /* InfoPlist.strings */; };
-		507D98A8C09F47E2BD2A1FEB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10687D5BA5DF4075ABC20CB9 /* libPods.a */; };
+		2B020D184C0398A5C30C9B9C /* libPods-WSSE-CocoaWSSE-Mac-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7328FCDF8BE4F4A1F3ABAF /* libPods-WSSE-CocoaWSSE-Mac-Example.a */; };
+		4351BCF63DC49DA47F09596A /* libPods-WSSE-CocoaWSSETests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 099607EF6CF504F999DA2507 /* libPods-WSSE-CocoaWSSETests.a */; };
+		C6B09714509FC3B81064C7EE /* libPods-WSSE-CocoaWSSE-iOS-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D16FAFA2B8996230893EA4 /* libPods-WSSE-CocoaWSSE-iOS-Example.a */; };
+		CDBD0E9DDD2CECA4486219C2 /* libPods-WSSE-CocoaWSSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0628EEF42E25679FF5E2DF6 /* libPods-WSSE-CocoaWSSE.a */; };
+		CDE43B304D8018D670DCF9D3 /* libPods-CocoaWSSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1A2529AEF581553D390266 /* libPods-CocoaWSSE.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00D1EF2C158CCEE01E709279 /* Pods-WSSE-CocoaWSSE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSE-CocoaWSSE.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSSE-CocoaWSSE/Pods-WSSE-CocoaWSSE.release.xcconfig"; sourceTree = "<group>"; };
 		0727040917EAFE2E00098766 /* CocoaWSSE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaWSSE.h; sourceTree = "<group>"; };
 		0727040A17EAFE2E00098766 /* CocoaWSSE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaWSSE.m; sourceTree = "<group>"; };
 		0727040C17EAFE5900098766 /* CocoaWSSETests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaWSSETests.m; sourceTree = "<group>"; };
@@ -109,8 +112,20 @@
 		07A16BB517EAFCEB001F2DCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		07A16BBD17EAFCEB001F2DCA /* CocoaWSSETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaWSSETests-Info.plist"; sourceTree = "<group>"; };
 		07A16BBF17EAFCEB001F2DCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		10687D5BA5DF4075ABC20CB9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B0EBC53D27B42CAB65B9B38 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		099607EF6CF504F999DA2507 /* libPods-WSSE-CocoaWSSETests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSSE-CocoaWSSETests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EEC6769B7E34AF57CDB2C7 /* Pods-CocoaWSSE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaWSSE.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaWSSE/Pods-CocoaWSSE.release.xcconfig"; sourceTree = "<group>"; };
+		26D16FAFA2B8996230893EA4 /* libPods-WSSE-CocoaWSSE-iOS-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSSE-CocoaWSSE-iOS-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1A2529AEF581553D390266 /* libPods-CocoaWSSE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaWSSE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7328FCDF8BE4F4A1F3ABAF /* libPods-WSSE-CocoaWSSE-Mac-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSSE-CocoaWSSE-Mac-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5B0386D6015B6CAC8B3BF6 /* Pods-CocoaWSSE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaWSSE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaWSSE/Pods-CocoaWSSE.debug.xcconfig"; sourceTree = "<group>"; };
+		7A0B145E23F7D2A88A36B85E /* Pods-WSSE-CocoaWSSETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSE-CocoaWSSETests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSSE-CocoaWSSETests/Pods-WSSE-CocoaWSSETests.debug.xcconfig"; sourceTree = "<group>"; };
+		951CC664E0A22B477CA246E4 /* Pods-WSSE-CocoaWSSE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSE-CocoaWSSE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSSE-CocoaWSSE/Pods-WSSE-CocoaWSSE.debug.xcconfig"; sourceTree = "<group>"; };
+		95308CADA8B6B0223647BDC7 /* Pods-WSSE-CocoaWSSE-iOS-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSE-CocoaWSSE-iOS-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSSE-CocoaWSSE-iOS-Example/Pods-WSSE-CocoaWSSE-iOS-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A343A756A1494D188A85356C /* Pods-WSSE-CocoaWSSETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSE-CocoaWSSETests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSSE-CocoaWSSETests/Pods-WSSE-CocoaWSSETests.release.xcconfig"; sourceTree = "<group>"; };
+		BB8E5BBC3AAB2BB2C7F5E8E6 /* Pods-WSSE-CocoaWSSE-iOS-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSE-CocoaWSSE-iOS-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSSE-CocoaWSSE-iOS-Example/Pods-WSSE-CocoaWSSE-iOS-Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0628EEF42E25679FF5E2DF6 /* libPods-WSSE-CocoaWSSE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WSSE-CocoaWSSE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8911A995708AA9E71E36F9D /* Pods-WSSE-CocoaWSSE-Mac-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSE-CocoaWSSE-Mac-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSSE-CocoaWSSE-Mac-Example/Pods-WSSE-CocoaWSSE-Mac-Example.release.xcconfig"; sourceTree = "<group>"; };
+		FC4E45DCF8D61178A4B29B4D /* Pods-WSSE-CocoaWSSE-Mac-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSSE-CocoaWSSE-Mac-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSSE-CocoaWSSE-Mac-Example/Pods-WSSE-CocoaWSSE-Mac-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +135,7 @@
 			files = (
 				0727044317EB02ED00098766 /* libCocoaWSSE.a in Frameworks */,
 				0727041417EB011900098766 /* Cocoa.framework in Frameworks */,
+				2B020D184C0398A5C30C9B9C /* libPods-WSSE-CocoaWSSE-Mac-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +147,7 @@
 				0727044917EB03E600098766 /* UIKit.framework in Frameworks */,
 				0727044A17EB03E700098766 /* Foundation.framework in Frameworks */,
 				0727044C17EB03E700098766 /* CoreGraphics.framework in Frameworks */,
+				C6B09714509FC3B81064C7EE /* libPods-WSSE-CocoaWSSE-iOS-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A16BA517EAFCEB001F2DCA /* Foundation.framework in Frameworks */,
-				507D98A8C09F47E2BD2A1FEB /* libPods.a in Frameworks */,
+				CDE43B304D8018D670DCF9D3 /* libPods-CocoaWSSE.a in Frameworks */,
+				CDBD0E9DDD2CECA4486219C2 /* libPods-WSSE-CocoaWSSE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +169,7 @@
 				07A16BB617EAFCEB001F2DCA /* UIKit.framework in Frameworks */,
 				07A16BB717EAFCEB001F2DCA /* Foundation.framework in Frameworks */,
 				07A16BBA17EAFCEB001F2DCA /* libCocoaWSSE.a in Frameworks */,
+				4351BCF63DC49DA47F09596A /* libPods-WSSE-CocoaWSSETests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +234,7 @@
 				07A16BBB17EAFCEB001F2DCA /* CocoaWSSETests */,
 				07A16BA317EAFCEB001F2DCA /* Frameworks */,
 				07A16BA217EAFCEB001F2DCA /* Products */,
-				6B0EBC53D27B42CAB65B9B38 /* Pods.xcconfig */,
+				1998C062E4E282EE7B735D53 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,10 +255,14 @@
 				07A16BA417EAFCEB001F2DCA /* Foundation.framework */,
 				07A16BB317EAFCEB001F2DCA /* SenTestingKit.framework */,
 				07A16BB517EAFCEB001F2DCA /* UIKit.framework */,
-				10687D5BA5DF4075ABC20CB9 /* libPods.a */,
 				0727041317EB011900098766 /* Cocoa.framework */,
 				0727044B17EB03E700098766 /* CoreGraphics.framework */,
 				0727041517EB011900098766 /* Other Frameworks */,
+				2E1A2529AEF581553D390266 /* libPods-CocoaWSSE.a */,
+				D0628EEF42E25679FF5E2DF6 /* libPods-WSSE-CocoaWSSE.a */,
+				4B7328FCDF8BE4F4A1F3ABAF /* libPods-WSSE-CocoaWSSE-Mac-Example.a */,
+				26D16FAFA2B8996230893EA4 /* libPods-WSSE-CocoaWSSE-iOS-Example.a */,
+				099607EF6CF504F999DA2507 /* libPods-WSSE-CocoaWSSETests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,6 +303,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1998C062E4E282EE7B735D53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A5B0386D6015B6CAC8B3BF6 /* Pods-CocoaWSSE.debug.xcconfig */,
+				15EEC6769B7E34AF57CDB2C7 /* Pods-CocoaWSSE.release.xcconfig */,
+				951CC664E0A22B477CA246E4 /* Pods-WSSE-CocoaWSSE.debug.xcconfig */,
+				00D1EF2C158CCEE01E709279 /* Pods-WSSE-CocoaWSSE.release.xcconfig */,
+				FC4E45DCF8D61178A4B29B4D /* Pods-WSSE-CocoaWSSE-Mac-Example.debug.xcconfig */,
+				E8911A995708AA9E71E36F9D /* Pods-WSSE-CocoaWSSE-Mac-Example.release.xcconfig */,
+				95308CADA8B6B0223647BDC7 /* Pods-WSSE-CocoaWSSE-iOS-Example.debug.xcconfig */,
+				BB8E5BBC3AAB2BB2C7F5E8E6 /* Pods-WSSE-CocoaWSSE-iOS-Example.release.xcconfig */,
+				7A0B145E23F7D2A88A36B85E /* Pods-WSSE-CocoaWSSETests.debug.xcconfig */,
+				A343A756A1494D188A85356C /* Pods-WSSE-CocoaWSSETests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,9 +327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0727042B17EB011900098766 /* Build configuration list for PBXNativeTarget "CocoaWSSE-Mac-Example" */;
 			buildPhases = (
+				A24BAE9924DCCA3AB92AAAAE /* 📦 Check Pods Manifest.lock */,
 				0727040E17EB011900098766 /* Sources */,
 				0727040F17EB011900098766 /* Frameworks */,
 				0727041017EB011900098766 /* Resources */,
+				AB3A2F1BF4C2EE5EEC80EC83 /* 📦 Embed Pods Frameworks */,
+				89F53B0CDAF5224EE8A918D9 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,9 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0727045F17EB03E700098766 /* Build configuration list for PBXNativeTarget "CocoaWSSE-iOS-Example" */;
 			buildPhases = (
+				EAFCA1A8DE115095D1826141 /* 📦 Check Pods Manifest.lock */,
 				0727044417EB03E600098766 /* Sources */,
 				0727044517EB03E600098766 /* Frameworks */,
 				0727044617EB03E600098766 /* Resources */,
+				7F132F06BC444941BD48124E /* 📦 Embed Pods Frameworks */,
+				E14DF7376C2A7860C228D165 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,11 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07A16BC617EAFCEB001F2DCA /* Build configuration list for PBXNativeTarget "CocoaWSSE" */;
 			buildPhases = (
-				CD6EC164265A45598419A060 /* Check Pods Manifest.lock */,
+				3101109CB3E3660D38699160 /* 📦 Check Pods Manifest.lock */,
 				07A16B9D17EAFCEB001F2DCA /* Sources */,
 				07A16B9E17EAFCEB001F2DCA /* Frameworks */,
 				07A16B9F17EAFCEB001F2DCA /* CopyFiles */,
-				6E9BA3552FE7452BB8875B4A /* Copy Pods Resources */,
+				79FC05E54F6B3A95ABB187D4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -342,10 +388,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07A16BC917EAFCEB001F2DCA /* Build configuration list for PBXNativeTarget "CocoaWSSETests" */;
 			buildPhases = (
+				F0DC6D1AC2F50060A7A4D01D /* 📦 Check Pods Manifest.lock */,
 				07A16BAD17EAFCEB001F2DCA /* Sources */,
 				07A16BAE17EAFCEB001F2DCA /* Frameworks */,
 				07A16BAF17EAFCEB001F2DCA /* Resources */,
 				07A16BB017EAFCEB001F2DCA /* ShellScript */,
+				2B891628047B148A723B18BB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -355,7 +403,7 @@
 			name = CocoaWSSETests;
 			productName = CocoaWSSETests;
 			productReference = 07A16BB217EAFCEB001F2DCA /* CocoaWSSETests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -363,7 +411,7 @@
 		07A16B9917EAFCEB001F2DCA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = 07A16B9C17EAFCEB001F2DCA /* Build configuration list for PBXProject "CocoaWSSE" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -390,7 +438,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0727043E17EB014E00098766 /* CocoaWSSE-Mac-Example-Info.plist in Resources */,
 				0727043F17EB014E00098766 /* Credits.rtf in Resources */,
 				0727044017EB014E00098766 /* InfoPlist.strings in Resources */,
 				0727044117EB014E00098766 /* MainMenu.xib in Resources */,
@@ -401,7 +448,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0727046E17EB041200098766 /* CocoaWSSE-iOS-Example-Info.plist in Resources */,
 				0727046F17EB041200098766 /* Default-568h@2x.png in Resources */,
 				0727047017EB041200098766 /* Default.png in Resources */,
 				0727047117EB041200098766 /* Default@2x.png in Resources */,
@@ -433,29 +479,149 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		6E9BA3552FE7452BB8875B4A /* Copy Pods Resources */ = {
+		2B891628047B148A723B18BB /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSSE-CocoaWSSETests/Pods-WSSE-CocoaWSSETests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD6EC164265A45598419A060 /* Check Pods Manifest.lock */ = {
+		3101109CB3E3660D38699160 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79FC05E54F6B3A95ABB187D4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSSE-CocoaWSSE/Pods-WSSE-CocoaWSSE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F132F06BC444941BD48124E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSSE-CocoaWSSE-iOS-Example/Pods-WSSE-CocoaWSSE-iOS-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F53B0CDAF5224EE8A918D9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSSE-CocoaWSSE-Mac-Example/Pods-WSSE-CocoaWSSE-Mac-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24BAE9924DCCA3AB92AAAAE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB3A2F1BF4C2EE5EEC80EC83 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSSE-CocoaWSSE-Mac-Example/Pods-WSSE-CocoaWSSE-Mac-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14DF7376C2A7860C228D165 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSSE-CocoaWSSE-iOS-Example/Pods-WSSE-CocoaWSSE-iOS-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFCA1A8DE115095D1826141 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0DC6D1AC2F50060A7A4D01D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,8 +732,8 @@
 /* Begin XCBuildConfiguration section */
 		0727042C17EB011900098766 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4E45DCF8D61178A4B29B4D /* Pods-WSSE-CocoaWSSE-Mac-Example.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -579,6 +745,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "Examples/CocoaWSSE-Mac-Example/CocoaWSSE-Mac-Example-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "so.lai.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -587,8 +754,8 @@
 		};
 		0727042D17EB011900098766 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8911A995708AA9E71E36F9D /* Pods-WSSE-CocoaWSSE-Mac-Example.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -601,6 +768,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "Examples/CocoaWSSE-Mac-Example/CocoaWSSE-Mac-Example-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "so.lai.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -609,15 +777,15 @@
 		};
 		0727046017EB03E700098766 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95308CADA8B6B0223647BDC7 /* Pods-WSSE-CocoaWSSE-iOS-Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Examples/CocoaWSSE-iOS-Example/CocoaWSSE-iOS-Example-Prefix.pch";
 				INFOPLIST_FILE = "Examples/CocoaWSSE-iOS-Example/CocoaWSSE-iOS-Example-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "so.lai.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -625,16 +793,15 @@
 		};
 		0727046117EB03E700098766 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8E5BBC3AAB2BB2C7F5E8E6 /* Pods-WSSE-CocoaWSSE-iOS-Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode4.6.app/Contents/Developer/Library/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Examples/CocoaWSSE-iOS-Example/CocoaWSSE-iOS-Example-Prefix.pch";
 				INFOPLIST_FILE = "Examples/CocoaWSSE-iOS-Example/CocoaWSSE-iOS-Example-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_BUNDLE_IDENTIFIER = "so.lai.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -653,6 +820,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -665,7 +833,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -688,6 +856,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -695,11 +864,12 @@
 		};
 		07A16BC717EAFCEB001F2DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B0EBC53D27B42CAB65B9B38 /* Pods.xcconfig */;
+			baseConfigurationReference = 951CC664E0A22B477CA246E4 /* Pods-WSSE-CocoaWSSE.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/CocoaWSSE.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaWSSE/CocoaWSSE-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -708,7 +878,7 @@
 		};
 		07A16BC817EAFCEB001F2DCA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B0EBC53D27B42CAB65B9B38 /* Pods.xcconfig */;
+			baseConfigurationReference = 00D1EF2C158CCEE01E709279 /* Pods-WSSE-CocoaWSSE.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/CocoaWSSE.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -721,6 +891,7 @@
 		};
 		07A16BCA17EAFCEB001F2DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0B145E23F7D2A88A36B85E /* Pods-WSSE-CocoaWSSETests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -729,6 +900,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaWSSE/CocoaWSSE-Prefix.pch";
 				INFOPLIST_FILE = "CocoaWSSETests/CocoaWSSETests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "so.lai.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -736,6 +908,7 @@
 		};
 		07A16BCB17EAFCEB001F2DCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A343A756A1494D188A85356C /* Pods-WSSE-CocoaWSSETests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
@@ -744,6 +917,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaWSSE/CocoaWSSE-Prefix.pch";
 				INFOPLIST_FILE = "CocoaWSSETests/CocoaWSSETests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "so.lai.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -759,6 +933,7 @@
 				0727042D17EB011900098766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0727045F17EB03E700098766 /* Build configuration list for PBXNativeTarget "CocoaWSSE-iOS-Example" */ = {
 			isa = XCConfigurationList;
@@ -767,6 +942,7 @@
 				0727046117EB03E700098766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07A16B9C17EAFCEB001F2DCA /* Build configuration list for PBXProject "CocoaWSSE" */ = {
 			isa = XCConfigurationList;
